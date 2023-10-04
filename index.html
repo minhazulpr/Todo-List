@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome || TODO List</title>
+
+        <!-- FavIcon -->
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/FlexboxLayout.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <!-- Controller Module -->
+        <script src="js/controller.js" type="module" defer></script>
+    </head>
+    <body>
+        <!-- 
+            Start: Code implement from https://loading.io/css/
+         -->
+        <div class="loader">
+            <div class="lds-hourglass"></div>
+        </div>
+        <!-- 
+            End : Code implement from https://loading.io/css/
+         -->
+
+         <!-- 
+            Start: Notification
+         -->
+        <div class="notification">
+            <div class="notification-content">
+                <img src="img/warningbtn.png" alt="">
+                <p>Input field must not be empty</p>
+                <img src="img/closebtn.png" class="close-btn" alt="">
+            </div>
+        </div>
+
+         <!-- 
+            End: Notification
+         -->
+
+        <!-- 
+            Start: Header
+         -->
+        <div class="container-fluid header-bg">
+            <div class="container">
+                <header class="header">
+                    <img src="img/check-list.png" alt="">
+                    <div class="title">
+                        <h1>TODO LIST</h1>
+                        <p>Create your list</p>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <!-- 
+            End: Header
+         -->
+         
+        <!-- 
+            Start: Main Content
+         -->
+        <div class="container">
+            <section class="main-app">
+                <div class="row">
+                    <!-- Option Bar Start -->
+                    <div class="col-md-4">
+                        <aside class="option-bar">
+                            <div class="task-btn active-btn">
+                                <img src="img/checklist.png" alt="">
+                                <span>Tasks</span>
+                            </div>
+                            
+                            <div class="history-btn">
+                                <img src="img/history.png" alt="">
+                                <span>History</span>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- Option Bar End -->
+
+                    <!-- Data view Section Start -->
+                    <div class="col-md-8">
+                        <!-- Form section start -->
+                        <div class="form-section">
+                            <form action="#">
+                                <img src="img/tab.png" class="submit-btn" alt="">
+                                <input type="text" class="input-data" placeholder="Enter your task">
+                            </form>
+                        </div>
+                        <!-- Form section end -->
+
+                        <!-- Task list section start -->
+                        <div class="task-list-section">
+                            <!-- <div class="task">
+                                <div>
+                                    <img src="img/task.png" alt="">
+                                </div>
+                                <div class="task-content">Want to buy computer </div>
+                                <div class="delete-wrapper">
+                                    <img src="img/delete.png" alt="">
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- Task list section end -->
+                    </div>
+                    <!-- Data view Section End -->
+                </div>
+            </section>
+
+            <footer>
+                <p>Design & Developed by &copy; <a href="https://www.linkedin.com/in/minhazulpr" target="_blank">Md. Minhazul Islam</a></p>
+            </footer>
+        </div>
+        <!-- 
+            End: Main Content
+         -->
+    </body>
+</html>
