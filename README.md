@@ -35,9 +35,9 @@ Download the project or clone it using command:
 git clone 
 ```
 
-Go to the `Todo List` directory:
+Go to the `Todo-List` directory:
 ```sh
-cd 'Todo List'
+cd Todo-List
 ```
 
 Install the `devDependencies` so that you can build or run the project:
